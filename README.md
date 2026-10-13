@@ -37,7 +37,7 @@ The provided Session 1 banner is included above from `assets/project-banner.svg`
 
 ## Preparation status
 
-The public GitHub repository has been created. The local Git workflow and report are prepared; publishing is waiting for the GitHub integration to receive access to this repository. After the files are published, edit this README on GitHub, then run `git fetch`, inspect the remote change, and run `git pull`.
+The project files are published in this public GitHub repository. This sentence was added directly on GitHub to practice fetching and pulling remote changes.
 
 ## Report
 
