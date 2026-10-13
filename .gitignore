@@ -1,0 +1,6 @@
+# Local environment settings
+local.env
+
+# Log files, except the log required for this assignment
+*.log
+!important.log
