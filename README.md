@@ -1,26 +1,46 @@
-# Git & GitHub Session 1 - Group B
+# Git & GitHub Fundamentals - Assignment 1
 
-![Project banner](assets/project-banner.svg)
+![Git & GitHub Session 1 project banner](assets/project-banner.svg)
 
-**Student:** Hiba Aoufouchi  
-**GitHub username:** hibaoufouchi4-bot  
-**Course code & section:** CSC 3324 01
+**Full name:** Hiba Aoufouchi  
+**Student ID:** 118611  
+**Course and section:** CSC 3324 01  
+**GitHub username:** [hibaaoufouchi4-bot](https://github.com/hibaaoufouchi4-bot)  
+**Repository name:** `git-session1-hibaoufouchi4-bot`
 
-A small starter website used to practice the Git and GitHub workflow for Session 1.
+## Description
+
+This small starter website demonstrates repository initialization, meaningful commits, selective staging, an About feature branch, merging, and synchronization concepts with GitHub.
 
 ## Technologies
 
 - HTML
 - CSS
 - JavaScript
-- Git and GitHub
+- Git
+- GitHub
+- Markdown
 
-## Run the project
-
-Open `index.html` in a web browser. The About page is available in `about.html`.
+## Example command
 
 ```bash
 git status
 ```
 
-For Git command reference, see the [official Git documentation](https://git-scm.com/docs).
+## Project banner
+
+The provided Session 1 banner is included above from `assets/project-banner.svg`.
+
+## Documentation
+
+- [Git command reference](https://git-scm.com/docs)
+
+## Preparation status
+
+The public GitHub repository has been created. The local Git workflow and report are prepared; publishing is waiting for the GitHub integration to receive access to this repository. After the files are published, edit this README on GitHub, then run `git fetch`, inspect the remote change, and run `git pull`.
+
+## Report
+
+- [Assignment report PDF](Assignment1_Report_118611.pdf)
+- [Report source](report/Report_Source.md)
+- [Local Git evidence](evidence/Local_Git_Evidence.txt)

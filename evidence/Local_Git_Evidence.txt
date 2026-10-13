@@ -1,0 +1,18 @@
+# Local Git evidence
+
+Student: Hiba Aoufouchi (118611) | CSC 3324 01
+Captured: 2026-10-13
+
+## Repository state
+
+The repository has `main` and `feature/about`. The feature branch contains the About page commit, and its merge is present in `main`. The local history contains eight commits. See `git log --oneline --decorate --graph --all` for the compact history.
+
+The assignment report, README, evidence, and report source are staged for the next commit. `notes.txt` remains modified and unstaged to demonstrate selective staging. `git diff --cached` displays staged changes; `git diff` displays the unstaged notes change.
+
+## Ignore rules
+
+`git check-ignore -v local.env sample.log important.log` confirms that `local.env` and ordinary `.log` files are ignored. `important.log` is tracked as required.
+
+## GitHub status
+
+The public GitHub repository was created, but the connected GitHub integration returned 403 when attempting to write to it. Initial publication, the online README edit, fetch, and pull remain pending until integration access is granted. No remote screenshots or completed remote operations are claimed here.
