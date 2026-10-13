@@ -1,9 +1,10 @@
-# Git & GitHub Session 1
+# Git & GitHub Session 1 - Group B
 
 ![Project banner](assets/project-banner.svg)
 
-**Student:** [Your full name]  
-**GitHub username:** [your-github-username]
+**Student:** Hiba Aoufouchi  
+**GitHub username:** hibaoufouchi4-bot  
+**Course code & section:** CSC 3324 01
 
 A small starter website used to practice the Git and GitHub workflow for Session 1.
 
@@ -16,7 +17,7 @@ A small starter website used to practice the Git and GitHub workflow for Session
 
 ## Run the project
 
-Open `index.html` in a web browser.
+Open `index.html` in a web browser. The About page is available in `about.html`.
 
 ```bash
 git status
