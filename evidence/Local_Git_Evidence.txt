@@ -1,18 +1,26 @@
-# Local Git evidence
+# Git and GitHub evidence
 
 Student: Hiba Aoufouchi (118611) | CSC 3324 01
 Captured: 2026-10-13
+Repository: https://github.com/hibaaoufouchi4-bot/git-session1-hibaoufouchi4-bot
 
-## Repository state
+## Branches and history
 
-The repository has `main` and `feature/about`. The feature branch contains the About page commit, and its merge is present in `main`. The local history contains eight commits. See `git log --oneline --decorate --graph --all` for the compact history.
+The public repository has `main` and `feature/about`. The About page was committed on `feature/about` and merged into `main`. The main branch contains nine commits, including the online README edit used for fetch/pull practice. The feature branch remains available on GitHub.
 
-The assignment report, README, evidence, and report source are staged for the next commit. `notes.txt` remains modified and unstaged to demonstrate selective staging. `git diff --cached` displays staged changes; `git diff` displays the unstaged notes change.
+## Selective staging
+
+During the selective-staging exercise, `style.css` was committed while `notes.txt` remained modified and unstaged. The CSS change is visible in commit `6b88e37` (`Add a small border radius to content sections`). The notes change was preserved separately. The corresponding commands are `git diff --cached` for staged changes and `git diff` for unstaged changes.
 
 ## Ignore rules
 
-`git check-ignore -v local.env sample.log important.log` confirms that `local.env` and ordinary `.log` files are ignored. `important.log` is tracked as required.
+`git check-ignore -v local.env app.log debug.log important.log` showed that `local.env`, `app.log`, and `debug.log` match the ignore rules. `important.log` is tracked as the required exception.
 
-## GitHub status
+## GitHub fetch and pull
 
-The public GitHub repository was created, but the connected GitHub integration returned 403 when attempting to write to it. Initial publication, the online README edit, fetch, and pull remain pending until integration access is granted. No remote screenshots or completed remote operations are claimed here.
+I added a sentence directly to the GitHub README. Before pulling, `git fetch origin` reported `main` as one commit behind `origin/main`. Hashes of the working files stayed the same during fetch:
+
+- `README.md`: `2c1df5fca49e10d9a2bf34fd8f0f00e492230140357efd739232d28fda76215c`
+- `index.html`: `438e79df89d482471bbccec8b44f231c526cc3de3b8b1ea5668a1af68e0d7c70`
+
+Then `git pull --ff-only origin main` fast-forwarded `main` from `0754ab8` to `c84fab0` and updated only `README.md` (one insertion, one deletion). The local branch was synchronized with the GitHub branch.
